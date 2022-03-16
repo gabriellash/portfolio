@@ -233,6 +233,7 @@ section{
 .about .about-content .right a{
     display: inline-block;
     background: crimson;
+    margin-left: 35%;
     color: #fff;
     font-size: 20px;
     padding: 10px 30px;
@@ -320,7 +321,7 @@ section{
 
 .project .project-content .card{
     width:calc(50% - 20px);
-    height: 220px;
+    height: 280px;
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -383,6 +384,7 @@ section{
 
 .contact .contact-content .column{
     width: calc(50% - 30px);
+    margin-left: 40%;
 }
 
  .contact .contact-content .text{
@@ -557,22 +559,25 @@ footer{
     .about .about-content .column{
         width: 100%;
     }
-    .about .about-content .left{
-        display: flex;
-        justify-content: center;
-        margin: 0 auto 60px;
-    }
     .about .about-content .right {
         flex:100%;
+    }
+    .about .about-content .right a{
+        flex:100%;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
     }
     .skills .skills-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
+        height: auto;
     }
     
     .project .project-content .card{
         width: 60%;
         margin-bottom: 20px;
+        height: auto;
     }
     .contact .contact-content .column{
         width: 100%;
@@ -596,11 +601,13 @@ footer{
         padding: 9px 25px;
     }
     .skills .skills-content .card{
-        width: 100%
+        width: 100%;
+        height: auto;
     }
 
     .project .project-content .card{
         width: 100%;
+        height: auto;
     }
 }
 @media (max-width:500px){  
