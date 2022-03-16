@@ -46,9 +46,6 @@
         <div class="max-width">
             <h2 class="title">About me</h2>
             <div class="about-content">
-                <div class="column left">
-                    <img src="gabzz.jpg" alt="">
-                </div>
                 <div class="column right">
                     <div class="text">I'm Gabriella and I'm a <span class="typing-2"> </span> </div>
                     <p> 🎓Soon to be grad with a Bachelor's of Science in Computer Science from the Lebanese University. <br>
@@ -76,7 +73,7 @@
                 <div class="card">
                     <div class="box"> <i class="fas fa-code"></i>
                         <div class="text">Backend Skills</div>
-                        <p>Java, PHP, MySQL, C++, Python</p>
+                        <p>Java, PHP, MySQL, C/C++</p>
                     </div>
                 </div>
                 <div class="card">
@@ -142,25 +139,27 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="mailto:gabriellashebly@gmail.com" >
+
+                    <form action="contactform.php" method="post" >
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="name">
+                                <input type="text" name="name" placeholder="Full name">
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email">
+                                <input type="email" name="mail" placeholder="Your e-mail">
                             </div>
                         </div>
                         <div class="field ">
-                            <input type="text" placeholder="Subject">
+                            <input type="text" name="subject" placeholder="Subject">
                         </div>
                         <div class="field textarea">
-                            <textarea placeholder="Describe project.." cols="30" rows="10"></textarea>
+                            <textarea name="message" placeholder="Message.." cols="30" rows="10"></textarea>
                         </div>
                         <div class="button">
-                            <button type="submit"> Send Message</button>
+                            <button type="submit" name="submit" > Send Message</button>
                         </div>
                     </form>
+
                 </div>
             </div>
         </div>
