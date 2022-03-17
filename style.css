@@ -141,7 +141,7 @@ section{
 /* home styling*/
 .home{
     display: flex;
-    background: url("portf1.png") no-repeat center;
+    background: #222 url("portf1.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -561,6 +561,7 @@ footer{
     }
     .about .about-content .right {
         flex:100%;
+        margin: auto;
     }
     .about .about-content .right a{
         flex:100%;
@@ -582,6 +583,7 @@ footer{
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
+        margin-left: 50px;
     }
     
     
