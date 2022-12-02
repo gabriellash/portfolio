@@ -19,7 +19,7 @@ html{
     width: 100%;
     z-index: 999;
     font-family: 'Ubuntu', sans-serif;
-    padding: 30x 0;
+    padding: 30px 0;
     margin-top: 20px;
     transition: all 0.3s ease;
 }
@@ -141,7 +141,7 @@ section{
 /* home styling*/
 .home{
     display: flex;
-    background: #222 url("portf1.png") no-repeat center;
+    background: #222 url("me.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
