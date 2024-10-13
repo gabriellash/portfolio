@@ -643,7 +643,7 @@ footer{
 
 #experience .title::after{
     content: "what I worked on";
-    background-color: #fff;
+    background-color: #f9f9f9;
 }
 
 #experience .experience-content {
@@ -698,3 +698,5 @@ footer{
     margin-right: 5px; /* Space between icon and list item text */
     color: #28a745; /* Color for check icons */
 }
+
+

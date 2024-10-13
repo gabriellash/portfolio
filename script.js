@@ -28,13 +28,13 @@ $(document).ready(function(){
 
 // typing text animation script
 var typed = new Typed(".typing", {
-    strings: ["","Computer Scientist", "Tech Enthusiast", "Content Creator"],
+    strings: ["","Cybersecurity Graduate", "Tech Enthusiast", "Content Creator"],
     typeSpeed: 120,
     backSpeed: 80,
     loop: true
 });
 var typed = new Typed(".typing-2", {
-    strings: ["", "Computer Sciencistt", "Tech Enthusiast", "Content Creator"],
+    strings: ["", "Cybersecurity Graduate", "Tech Enthusiast", "Content Creator"],
     typeSpeed: 120,
     backSpeed: 80,
     loop: true
